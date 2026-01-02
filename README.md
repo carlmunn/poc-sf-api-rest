@@ -4,7 +4,7 @@ This POSTs using SF's composite API to create a new contact and attach a PDF to 
 
 - No private key is present. This needs creating new and placed in Resources/
   `openssl genrsa ...` can do this
-- ~~Targetting .NET foundation, not the newer .NET Core~~ [Actually .NET Core, haven't commit the code changes yet] . Also needed to use Visual Basic, not C#
+- ~~Targetting .NET foundation, not the newer .NET Core~~ [The .NET Foundation is [here](https://github.com/carlmunn/poc-sf-api-rest-foundation/tree/main)] . Also needed to use Visual Basic, not C#
 - Using Newtonsoft.JSON and BouncyCastle (encryption), which wouldn't be
   needed if .NET Core was used
 - Not all the code is related to the POC. Left some debug there
